@@ -1,0 +1,103 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'poppins',sans-serif;
+    font-weight: 500;
+}
+
+body{
+    background-color: black;
+}
+
+.navbar{
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+}
+
+.nav-link{
+    color: white;
+    font-size: 1.1rem;
+}
+
+.nav-item{
+	padding-right: 20px;
+}
+
+.nav-link:hover{
+    color: red;
+}
+
+.btn{
+	padding: 3px 15px;
+    background-color: white;
+    color: black;
+	
+}
+.btn:hover{
+    
+    background-color: red;
+    color: white;
+    font-weight: 600;
+
+}
+
+@media screen and (max-width: 576px) {
+    .ultimate{
+        font: size 10px;;
+
+    }
+    
+  }
+
+.bg-video{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.bg-video video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    pointer-events: none;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.main-heading{
+    position: relative;
+}
+
+.main-heading h2{
+    font-weight: bold;
+    
+}
+.main-heading p{
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.main-heading a{
+    padding: 5px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.main-heading a:hover{
+    color: black;
+    background-color: black;
+    font-weight: 600;
+}
