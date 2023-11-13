@@ -8,4 +8,7 @@ import { Component } from '@angular/core';
 export class HomeComponent {
   public myName: string = "Dell";
   public myName2: string = "Del";
+  public human:any = [
+    
+  ]
 }
